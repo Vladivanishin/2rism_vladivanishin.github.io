@@ -106,10 +106,8 @@ h1 {
 	align-items: center;
 	padding: 24px 24px 24px 56px;
 	gap: 8px;
-
 	width: 273px;
 	height: 72px;
-
 	background: #7B61FF;
 	border-radius: 12px;
 	position: relative;
@@ -196,7 +194,7 @@ h1 {
 
 /*-----------------section destinations---------------------*/
 
-.popular-destinations {
+.container-mid {
 	width: 1378px;
 	height: 345px;
 	margin: 0 auto;
@@ -208,7 +206,7 @@ h1 {
 	margin-top: 120px;
 	margin-bottom: 120px;
 }
-.popular-destinations__title {
+.title-top {
 	font-weight: 600;
 	font-size: 32px;
 	line-height: 48px;
@@ -270,4 +268,68 @@ h1 {
 .card6 {
 	background: url("img/img-madrid.png") no-repeat;
 	background-position: top right;
+}
+
+/*-----------------section hotels---------------------*/
+.hotels-page {
+	max-height: 558px;
+}
+.hotels__topbox {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.title-top {
+}
+.view-all-link {
+}
+.hotels__bottombox {
+	display: flex;
+	justify-content: space-between;
+
+}
+.hotels__card {
+	display: flex;
+	flex-direction: column;
+
+}
+.hotels__img {
+	width: 320px;
+	height: 380px;
+	border-radius: 12px;
+}
+.hotels__pictures {
+	background-image: url("img/img-hotels-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hotels__disc {
+}
+.card__name {
+}
+.card__where {
+}
+.card__where--map-pin {
+}
+.card__stars--5 {
+}
+.hotels__pictures2 {
+	background-image: url("img/img-hotels-2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.card__stars--3 {
+}
+.hotels__pictures3 {
+	background-image: url("img/img-hotels-3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.card__stars--4 {
+}
+.hotels__pictures4 {
+	background-image: url("img/img-hotels-4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
