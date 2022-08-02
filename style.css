@@ -287,7 +287,7 @@ h1 {
 .hotels__bottombox {
 	display: flex;
 	justify-content: space-between;
-
+	gap: 32px;
 }
 .hotels__card {
 	display: flex;
