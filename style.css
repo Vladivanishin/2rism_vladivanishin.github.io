@@ -195,7 +195,7 @@ h1 {
 /*-----------------section destinations---------------------*/
 
 .container-mid {
-	width: 1378px;
+	width: 1408px;
 	height: 345px;
 	margin: 0 auto;
 	padding-left: 15px;
@@ -271,6 +271,18 @@ h1 {
 }
 
 /*-----------------section hotels---------------------*/
+.container-mid2 {
+	max-width: 1406px;
+	height: 558px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
 .hotels-page {
 	max-height: 558px;
 }
@@ -278,6 +290,7 @@ h1 {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	
 }
 
 .title-top {
@@ -310,7 +323,9 @@ h1 {
 .hotels__card {
 	display: flex;
 	flex-direction: column;
-
+	justify-content: space-between;
+	width: 320px;
+	height: 446px;
 }
 .hotels__img {
 	width: 320px;
@@ -323,14 +338,52 @@ h1 {
 	background-size: cover;
 }
 .hotels__disc {
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
 }
-.card__name {
+.card__name2 {
+	margin-bottom: 12px;
+	position: relative;
 }
-.card__where {
+.card__where--paddingleft {
+	padding-left: 20px;
+
 }
+/*
+.card__where::after {
+	content: '';
+	position: absolute;
+	background-image: url("img/icon-map-pin.png");
+	background-repeat: no-repeat;
+	left: 0;
+	bottom: 3px;
+}*/
 .card__where--map-pin {
+	background-image: url("img/icon-map-pin.png");
+	background-repeat: no-repeat;
+	background-position: 3px left;
 }
-.card__stars--5 {
+.card__pin {
+	position: absolute;
+	left: 0;
+	bottom: 3px;
+}
+.card__were--stars5 {
+	background-image: url("img/icon-5stars.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.card__were--stars3 {
+	background-image: url("img/icon-3stars.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.card__were--stars4 {
+	background-image: url("img/icon-4stars.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
 .hotels__pictures2 {
 	background-image: url("img/img-hotels-2.png");
