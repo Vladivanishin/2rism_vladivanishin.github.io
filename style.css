@@ -283,6 +283,24 @@ h1 {
 .title-top {
 }
 .view-all-link {
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #5243C2;
+	padding: 10px 34px 10px 10px;
+	width: 105px;
+	height: 44px;
+
+	background: #F6F4FF;
+	border-radius: 12px;
+ position: relative;
+}
+.view-all-link__arrow {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+
 }
 .hotels__bottombox {
 	display: flex;
