@@ -290,7 +290,7 @@ h1 {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
-	
+
 }
 
 .title-top {
@@ -403,4 +403,113 @@ h1 {
 	background-image: url("img/img-hotels-4.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/*------------------travel tips-----------------------*/
+
+.travel-tips-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.container-mid3 {
+	max-width: 1406px;
+	height: 492px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.travel__topbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.title-top {
+}
+.view-all-link {
+}
+.view-all-link__arrow {
+}
+.travel__bottombox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.travel__photobox {
+	width: 320px;
+	height: 380px;
+}
+.hotels__img {
+}
+.travel__photo1 {
+	background-image: url("img/img-travels1.jpg");
+	background-repeat: no-repeat;
+}
+.travel__photo2 {
+	background-image: url("img/img-travel2.jpg");
+	background-repeat: no-repeat;
+}
+.travel__textbox {
+	width: 320px;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+}
+.textbox__title {
+	font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #161414;
+}
+.textbox__disc {
+	font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+color: #5B5B5B;
+margin-top: 16px;
+margin-bottom: 124px;
+}
+.textbox__comment-list {
+	display: flex;
+	font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #878787;
+position: relative;
+
+
+}
+.comment-list__icon {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.comment-list__icon2 {
+	position: absolute;
+	left: 84px;
+	bottom: 0;
+}
+.comment-list__icon3 {
+	position: absolute;
+	left: 213px;
+	bottom: 0;
+}
+.comment-list__icon4 {
+	position: absolute;
+	left: 200px;
+	bottom: 0;
+}
+.comment-list__date {
+	margin-left: 20px;
+}
+.comment-list__user {
+	margin-left: 44px;
+}
+.comment-list__comment {
+	margin-left: 44px;
 }
