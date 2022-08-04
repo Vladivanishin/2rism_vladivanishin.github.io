@@ -84,7 +84,9 @@ select {
 
 /*выше сброс стилей-------начало проекта */
 
-
+html, body, .container {
+	height: 100%;
+}
 body {
 	background-color: #fff;
 	color: #5B5B5B;
@@ -92,6 +94,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
+	width: max-content;
 }
 h1 {
 	font-style: normal;
@@ -102,7 +105,7 @@ h1 {
 }
 /*------------------------header-----------------*/
 .header__container {
-	max-width: 1920px;
+	width: 1920px;
 	height: 800px;
 	display: flex;
 	border-radius: 0px 0px 54px 54px;
@@ -115,7 +118,7 @@ h1 {
 	background-size: cover;
 }
 .header {
-	width: 1376px;
+	width: 1406px;
 	height: 48px;
 	margin: 0 auto;
 	display: flex;
@@ -800,7 +803,27 @@ color: #5B5B5B;
 	justify-content: space-between;
 	border: 1px solid cornflowerblue;
 }
+.menu__input {
+	width: 300px;
+	height: 72px;
+}
 .menu__emalibox {
 	display: flex;
 	justify-content: space-between;
+	width: 388px;
+	height: 72px;
+}
+.menu__btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 18px;
+	gap: 8px;
+	width: 72px;
+	height: 72px;
+	background: #7B61FF;
+	border-radius: 12px;
+	border: 0;
+
 }
