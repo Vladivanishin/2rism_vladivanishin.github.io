@@ -1,3 +1,90 @@
+/*-----------сброс стиле------------ */
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+a {
+   text-decoration: none;
+}
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+/*выше сброс стилей-------начало проекта */
+
+
 body {
 	background-color: #fff;
 	color: #5B5B5B;
@@ -612,4 +699,108 @@ color: #5B5B5B;
 .about-us__photo {
 	border-radius: 24px;
 	margin-left: 32px;
+}
+
+/*-------------------footer page---------------*/
+.footer-page {
+	width: 1918px;
+	height: 403px;
+	background: #F9F9F9;
+	border: 1px solid cornflowerblue;
+}
+.footer__content {
+	width: 1406px;
+	height: 163px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid cornflowerblue;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.footer__social-box {
+	width: 355px;
+	height: 155px;
+	border: 1px solid cornflowerblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}	
+.logo {
+}
+.logo--black {
+	
+}
+.logo__image {
+}
+.social__text {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #5B5B5B;
+}
+.footer__social {
+	display: flex;
+	font-size: 0;
+	list-style: none;
+	width: 160px;
+	height: 32px;
+}
+.social__item:not(:last-child) {
+margin-right: 32px;
+}
+.social__link {
+
+}
+.footer__menu {
+	width: 505px;
+	height: 163px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid cornflowerblue;
+}
+.menu__about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.menu__title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: #161414;
+}
+.menu__list {
+}
+.menu__item:not(:first-child) {
+	margin-top: 8px;
+}
+.menu__link {
+	font-size: 13px;
+line-height: 20px;
+color: #5B5B5B;
+}
+.menu__company {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.menu__support {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer__sub {
+	width: 388px;
+	height: 146px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid cornflowerblue;
+}
+.menu__emalibox {
+	display: flex;
+	justify-content: space-between;
 }
