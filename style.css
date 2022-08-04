@@ -15,6 +15,7 @@ h1 {
 }
 /*------------------------header-----------------*/
 .header__container {
+	max-width: 1920px;
 	height: 800px;
 	display: flex;
 	border-radius: 0px 0px 54px 54px;
@@ -272,7 +273,7 @@ h1 {
 
 /*-----------------section hotels---------------------*/
 .container-mid2 {
-	max-width: 1406px;
+	width: 1406px;
 	height: 558px;
 	margin: 0 auto;
 	padding-left: 15px;
@@ -413,7 +414,7 @@ h1 {
 	justify-content: space-between;
 }
 .container-mid3 {
-	max-width: 1406px;
+	width: 1406px;
 	height: 492px;
 	margin: 0 auto;
 	padding-left: 15px;
@@ -512,4 +513,53 @@ position: relative;
 }
 .comment-list__comment {
 	margin-left: 44px;
+}
+
+/*-----------------------block activites-------------------*/
+
+.activites-page {
+
+}
+.container-mid4 {
+	width: 1406px;
+	height: 420px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.activites__titlebox {
+	display: flex;
+	justify-content: space-between;
+}
+.activites__title {
+}
+.activites__link {
+}
+.activites__bottombox {
+	height: 420px;
+	display: flex;
+	justify-content: space-between;
+}
+.bottombox__card {
+	width: 320px;
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.card__image {
+	width: 320px;
+	height: 380px;
+	border-radius: 12px;
+}
+.card__text {
+	font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #161414;
 }
