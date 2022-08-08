@@ -83,7 +83,9 @@ select {
 
 
 /*выше сброс стилей-------начало проекта */
-
+html {
+	min-width: 1440px;
+}
 body {
 	background-color: #fff;
 	color: #5B5B5B;
@@ -92,6 +94,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	box-sizing: border-box;
+	min-width: 1440px;
 }
 h1 {
 	font-style: normal;
@@ -263,7 +266,31 @@ h1 {
 	justify-content: space-between;
 	align-items: center;
 }
-.search-box__input {
+.search-box__input:nth-child(1) {
+	width: 300px;
+	height: 100%;
+	position: relative;
+}
+.search-box__input:nth-child(1)::before {
+content: "";
+position: absolute;
+background: url("img/icon-search-local.svg") no-repeat;
+left: 0;
+bottom: 0;
+
+
+}
+.search-box__input:nth-child(2) {
+	width: 254px;
+	height: 100%;
+}
+.search-box__input:nth-child(3) {
+	width: 254px;
+	height: 100%;
+}
+.search-box__input:nth-child(4) {
+	width: 254px;
+	height: 100%;
 }
 .search-box__button {
 	display: flex;
